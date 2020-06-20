@@ -1,7 +1,7 @@
 import React, { useState, useContext, useCallback, useEffect } from 'react';
 import { useHttp } from '../hooks/http.hook';
 import { LinksList } from '../components/LinksList';
-import { AuthContext } from '../context/AuthContext';
+import { AuthContext } from '../contexts/AuthContext';
 import { Loader } from '../components/Loader';
 
 function LinksPage() {

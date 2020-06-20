@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import 'materialize-css';
 import { useHttp } from '../hooks/http.hook';
 import { useMessage } from '../hooks/message.hook';
-import { AuthContext } from '../context/AuthContext';
+import { AuthContext } from '../contexts/AuthContext';
 
 function AuthPage() {
     const auth = useContext(AuthContext);

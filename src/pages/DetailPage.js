@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useContext, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useHttp } from '../hooks/http.hook';
-import { AuthContext } from '../context/AuthContext';
+import { AuthContext } from '../contexts/AuthContext';
 import { Loader } from '../components/Loader';
 import { LinkCard } from '../components/LinkCard';
 

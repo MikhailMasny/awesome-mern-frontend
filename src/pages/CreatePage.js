@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { useHttp } from '../hooks/http.hook';
-import { AuthContext } from '../context/AuthContext';
+import { AuthContext } from '../contexts/AuthContext';
 import { useHistory } from 'react-router-dom';
 
 function CreatePage() {

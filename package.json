@@ -1,0 +1,49 @@
+{
+  "name": "awesome-mern-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Awesome MERN app (Frontend)",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikhailMasny/awesome-mern-frontend.git"
+  },
+  "keywords": [
+    "mern",
+    "react.js"
+  ],
+  "author": "Mikhail M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikhailMasny/awesome-mern-frontend/issues"
+  },
+  "homepage": "https://github.com/MikhailMasny/awesome-mern-frontend#readme",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

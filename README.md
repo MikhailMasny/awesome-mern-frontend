@@ -9,6 +9,7 @@ The main idea of the web application is to develop a link shortener app for simp
 
 ```
 npm i materialize-css (deprecated)
+npm i uikit
 npm i react-router-dom
 ```
 

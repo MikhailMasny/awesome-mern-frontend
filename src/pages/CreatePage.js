@@ -22,27 +22,15 @@ function CreatePage() {
         const data = await request('/api/link/generate', 'POST', { from: link}, {
           Authorization: `Bearer ${auth.token}`
         });
-        console.log(data);
         history.push(`/detail/${data.link._id}`);
-      } catch (error) {
-        
-      }
+      } catch (error) { }
     }
   }
-
   return (
-    <div className="container">
-      <div className="input-field col s6">
-          <input
-            placeholder="Placeholder"
-            id="link"
-            type="text"
-            className="validate"
-            value={link}
-            onChange={linkHandler}
-            onKeyPress={pressHandler} />
-          <label htmlFor="link">First Name</label>
-        </div>
+    <div className="uk-container uk-margin-small-top uk-flex uk-flex-center">
+      <div className="uk-margin">
+        <input id="link" className="uk-input uk-form-width-large" type="text" placeholder="Your link here.." value={link} onChange={linkHandler} onKeyPress={pressHandler} />
+      </div>
     </div>
   );
 }

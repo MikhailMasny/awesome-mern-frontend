@@ -1,5 +1,5 @@
 import React from 'react';
-import 'materialize-css';
+import 'uikit'
 import { useRoutes } from './routes';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { useAuth } from './hooks/auth.hook';

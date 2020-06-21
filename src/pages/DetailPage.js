@@ -16,11 +16,8 @@ function DetailPage() {
         Authorization: `Bearer ${token}`
       });
       setLink(data);
-    } catch (error) {
-      
-    }
+    } catch (error) { }
   }, [token, linkId, request]);
-
 
   useEffect(() => {
     getLink()
